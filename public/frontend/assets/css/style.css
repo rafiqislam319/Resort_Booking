@@ -1,0 +1,237 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+:root {
+  --primary-color: #dcb57e;
+}
+
+/* Global style for h tag start */
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 30px !important;
+  font-weight: 400 !important;
+  font-family: "Playfair Display", sans-serif;
+  line-height: 1.2;
+  /* font-weight: bold; */
+}
+/* Global style for h tag end */
+
+/* Global style for p tag start */
+p {
+  color: #ffffff;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+/* Global style for p tag end */
+
+/* Global button style start*/
+.primary-button {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 12px 16px;
+  border: 3px solid #fff;
+  color: #fff;
+  background-color: transparent;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.primary-button:hover {
+  background-color: #dcb57e;
+  color: #fff;
+  border: 3px solid #dcb57e;
+}
+/* Global button style ends */
+
+/* service section css start */
+#service {
+  background-color: #263238;
+}
+/* service section css end */
+
+/* gallery section css start */
+#gallery {
+  height: 700px;
+  overflow: hidden;
+}
+/* gallery section css end */
+
+/* booking section css start */
+#booking {
+  background-color: #263238;
+}
+#booking h1 {
+  font-size: 60px;
+  line-height: 1.2;
+  font-family: Playfair Display;
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* booking section css end */
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+  font-size: 22px;
+}
+.navbar-light .navbar-brand {
+  color: black;
+  font-size: 30px;
+}
+.hero-section {
+  height: 70vh;
+  min-height: 100px;
+  background-size: cover;
+  background-image: url("/public/frontend/images/resort.jpg");
+}
+
+/*media Query*/
+@media only screen and (max-width: 600px) {
+  header {
+    background-position: 20% 33%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+  }
+  .dropdown .dropdown-menu {
+    display: none;
+  }
+  .dropdown:hover .dropdown-toggle::after {
+    border-top: 0;
+    border-bottom: 0.3em solid;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .dropdown-toggle.show::after {
+    border-top: 0;
+    border-bottom: 0.3em solid;
+  }
+}
+
+.heading {
+  font-family: "Playfair Display", serif;
+  font-size: 150px;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.get-start-section {
+  height: 50vh;
+  margin-bottom: 0px !important;
+  padding-top: 65px !important;
+  padding-right: 0px !important;
+  padding-bottom: 65px !important;
+  background-image: url(http://themeenergy.com/themes/test/bytmulti/resort/wp-content/uploads/sites/18/2017/11/bg2.png?id=57) !important;
+  background-position: 0 0 !important;
+  background-repeat: repeat !important;
+}
+
+/* get-start-section start */
+.get-start-section h3 {
+  color: #dcb57e !important;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 50px;
+}
+/* get-start-section end */
+
+/* slider-section start */
+.slider-section {
+  height: 50vh;
+}
+
+.slider-text {
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  font-weight: 400;
+}
+/* slider-section end */
+
+/* Global button style start*/
+.primary-button {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 12px 16px;
+  border: 3px solid #fff;
+  color: #fff;
+  background-color: transparent;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.primary-button:hover {
+  background-color: var(--primary-color);
+  color: #fff;
+  border: 3px solid var(--primary-color);
+}
+/* Global button style ends */
+
+/* service section css start */
+#service {
+  color: var(--primary-color);
+}
+#service h3 {
+  background-color: #263238;
+}
+/* service section css end */
+
+/* gallery section css start */
+#gallery {
+  height: 700px;
+  overflow: hidden;
+}
+/* gallery section css end */
+
+/* booking section1 css start */
+#booking1 {
+  background-color: #263238;
+}
+#booking1 h1 {
+  font-size: 60px;
+  line-height: 1.2;
+  font-family: Playfair Display;
+  font-weight: 400;
+  font-style: italic;
+  color: var(--primary-color);
+}
+/* booking section1 css end */
+/* booking section2 css start */
+#booking2 {
+  background-color: #263238;
+}
+#booking2 h1 {
+  font-size: 60px;
+  line-height: 1.2;
+  font-family: Playfair Display;
+  font-weight: 400;
+  font-style: italic;
+  color: var(--primary-color);
+}
+/* booking section2 css end */
+
+/* footer section css start */
+#footer {
+  background-color: #263238;
+}
+#footer h6 {
+  color: #858585;
+}
+#footer button {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+#footer ul li {
+  list-style: none;
+}
+
+/* footer section css end */
